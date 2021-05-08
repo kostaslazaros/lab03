@@ -45,11 +45,10 @@ while (<>){
     $length = @tmstart;
 
     for($k = 0; $k < $length; $k++){
-
+        
         for($i = @tmstart[$k] - 1; $i < @tmend[$k]; $i++){
 
             substr($lines,$i,1,"M");
-
         }
     }
 
